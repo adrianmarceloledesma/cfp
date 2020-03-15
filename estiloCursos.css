@@ -1,0 +1,23 @@
+.cursosSede li{
+    color: rgb(78, 76, 76);
+    text-align: start;
+    }
+    .cursosSede ul{
+      padding:10px;
+      margin-top:-20px;
+    }
+    .cursosSede h4{
+      color:rgb(50, 81, 182)
+    }
+
+    @media screen and (max-width:450px){
+      .cursosSede li{
+        font-size:18px;
+       
+        margin-left: 10px;
+      }
+      .cursosSede h2{
+        width: 90%;
+      }
+      
+    }

@@ -1,0 +1,184 @@
+body{
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, auto) ;
+ 
+}
+
+
+header{
+    grid-column:1/-1;
+    grid-row: 1/2;
+}
+
+nav{
+    grid-column:1/-1;
+    grid-row:2/3 ;
+}
+
+section{
+    grid-column:1/6;
+    grid-row: 3/7;
+}
+aside{
+    grid-column:5/7;
+    grid-row: 3/7;
+    
+}
+footer{
+     grid-column:1/-1;
+     grid-row:7/8;
+}
+
+
+
+
+
+/*responsive*/
+@media screen and (max-width:450px){
+    body{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
+        text-align: center;
+        margin:0 ;
+        width: 100%;
+    }
+   header{
+       grid-column: 1/-1;
+       grid-row: 1/2;
+
+    
+   }
+   section{
+       grid-column: 1/-1;
+       grid-row: 2/5;
+   }
+   aside{
+       grid-column:1/-1;
+       grid-row: 7/11;
+
+   }
+   footer{
+       grid-column: 1/-1;
+       grid-row:11/13 ;
+   }
+
+
+ 
+
+/*ajustes*/
+   header h1{
+       font-size: 17px;
+       display:block;
+       margin-top: 20px;
+       margin-left: 0;
+   }
+   header{
+       border-bottom: gray 2px solid;
+       width: 100%;
+       margin:0 auto;
+       height: 120px;
+    
+   }
+      /*extension cursos  para celulares*/
+      nav  .li3a,
+      nav .li3b,
+      nav .li3c {
+        display:block;
+        background-color: rgb(46, 46, 206);
+    }
+
+    .extensionPantallaGrande{
+        display:none;
+    }
+
+
+
+   /*nav*/
+   nav{
+       margin-top: -39px;
+       display: none;
+       width: 100%;
+       padding:0;
+   }
+   
+   nav li{
+     padding: 14px;
+     
+     font-size: 21px;
+     text-align: start;
+     margin-left: -40px;
+   }
+   .responsive > img{
+       display:inline
+   }
+
+
+   nav li{
+       display:block;
+       border-bottom: 1px gray solid;
+      
+   }
+
+
+   /*aside*/
+   aside {
+       margin-top: -20px;
+       border-top:dashed gray 1px
+   }
+
+  
+   .contenedor {
+       width: 100%;
+    
+       margin-top: -50px;
+       text-align: center;
+   }
+   .contenedor h2{
+       width: 90%;
+       font-size: 19px;
+   }
+   .contenedor p{
+       font-size: 19px;
+   }
+   .contenedor h3{
+       font-size: 19px;
+       width:100%;
+   }
+  
+
+
+
+   
+   /*footer*/
+   
+   footer{
+       width: 100%;
+       margin:0
+   }
+   footer img{
+       width: 130px;
+       
+   }
+
+   footer .contactocfp{
+       
+       display:none
+   }
+
+
+
+
+   
+}  
+
+
+
+   
+
+
+
+
+
+
