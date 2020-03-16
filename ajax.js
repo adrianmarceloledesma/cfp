@@ -18,10 +18,10 @@
 
            /*mostrar submmenu en pantalla grande y chica */
 			$("#li3").click(function(){
-				if ($(window).width() > 990){
+				if ($(window).width() > 1000){
 			     	$(".extensionPantallaGrande").slideToggle(500);
 				}
-			    else if ($(window).width() <= 990) {
+			    else if ($(window).width() <= 1000) {
 					$(".li3a, .li3b, .li3c").slideToggle(500);		
 				
 			   }
@@ -32,7 +32,7 @@
 			   $(".extensionPantallaGrande").hide();
 			})
 			$(".extensionPantallaGrande li").click(function(){
-				if ($(window).width() > 500) {
+				if ($(window).width() > 1000) {
 					$(".extensionPantallaGrande").fadeOut(500);	 
 				}	
 		
@@ -54,7 +54,7 @@
 			 menos a de la clase cursos */
 
             $("nav li:not(.cursos)").click(function(){
-				if ($(window).width() <= 500 ) {
+				if ($(window).width() <= 1000 ) {
 					$("nav").fadeOut(500);	 
 					$(".x").slideUp(700);
 					$(".li3a, .li3b, .li3c").hide();

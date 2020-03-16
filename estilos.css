@@ -30,9 +30,9 @@ body{
     font-weight: bold;
 }
 
-.contenedor p,
-.contenedor h3{    
+.contenedor p{    
     padding: 10px;
+    
 }
 .contenedor  p{
     text-align:start;
@@ -64,7 +64,7 @@ section, aside{
 /*aside*/
 aside figure > img{
     width: 100%;
-   min-width:257px ;
+ 
   
 
 
@@ -76,7 +76,7 @@ header{
     text-align: center;
     background-color: white;
     width: 100%;
-    margin-left: -30px;
+    margin-left: -33px;
 }
 header > h1{
     display:inline;
@@ -154,7 +154,7 @@ nav .extension {
 
 footer{
     background-color: rgb(83, 83, 82);
-    margin:0 -31px 0 -30px;
+    margin:0 -31px 0 -31px;
     
 }
 footer img{
@@ -190,7 +190,7 @@ footer .contactocfp{
 .responsive > img {
     position: fixed;
     top:20px;
-    right: 10px;
+    right: 20px;
     margin:auto;
     
 
