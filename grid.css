@@ -36,7 +36,80 @@ footer{
 
 
 /*responsive*/
-@media screen and (max-width:450px){
+@media screen and (max-width:1200px){
+    nav li{
+        font-size: 21px;
+        padding:24px 15px;
+        
+    }
+    nav{
+        text-align:center;
+        
+    }
+    header{
+        border-bottom: 2px gray solid;
+    }
+    
+
+
+}
+
+
+
+ @media screen and (max-width:990px){
+     
+    /* nav */
+    nav{
+        margin-top: -20px;
+        display: none;
+        width: 100%;
+        padding:0;
+    }
+    
+    nav li{
+      padding: 14px;
+      
+      font-size: 21px;
+      text-align: start;
+      margin-left: -40px;
+    }
+    .responsive > img{
+        display:inline
+    }
+ 
+ 
+    nav li{
+        display:block;
+        border-bottom: 1px gray solid;
+       
+    }
+   /*extension cursos  para celulares*/
+    nav  .li3a,
+    nav .li3b,
+    nav .li3c {
+       display:block;
+       background-color: rgb(46, 46, 206);
+    }
+    
+    /* contendor */
+    .contenedor{
+        margin-top: -70px;
+    }
+
+    /* header */
+    header{
+        background-color:rgb(255, 255, 255);
+        height: 100px;
+    }   
+    header h1{
+        font-size: 23px;
+    }  
+
+} 
+
+
+
+@media screen and (max-width:900px){
     body{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(auto-fill, 1fr);
@@ -64,12 +137,14 @@ footer{
        grid-row:11/13 ;
    }
 
+ 
+
 
  
 
 /*ajustes*/
    header h1{
-       font-size: 17px;
+       font-size: 30px;
        display:block;
        margin-top: 20px;
        margin-left: 0;
@@ -78,78 +153,42 @@ footer{
        border-bottom: gray 2px solid;
        width: 100%;
        margin:0 auto;
-       height: 120px;
+       height: 130px;
     
    }
-      /*extension cursos  para celulares*/
-      nav  .li3a,
-      nav .li3b,
-      nav .li3c {
-        display:block;
-        background-color: rgb(46, 46, 206);
-    }
-
-    .extensionPantallaGrande{
-        display:none;
-    }
-
-
+ 
 
    /*nav*/
    nav{
-       margin-top: -39px;
-       display: none;
-       width: 100%;
-       padding:0;
-   }
-   
-   nav li{
-     padding: 14px;
-     
-     font-size: 21px;
-     text-align: start;
-     margin-left: -40px;
-   }
-   .responsive > img{
-       display:inline
-   }
-
-
-   nav li{
-       display:block;
-       border-bottom: 1px gray solid;
-      
+    margin-top: -41px;
    }
 
 
    /*aside*/
    aside {
-       margin-top: -20px;
+       margin-top:-10px ;
        border-top:dashed gray 1px
    }
 
   
    .contenedor {
        width: 100%;
-    
+       
        margin-top: -50px;
        text-align: center;
    }
    .contenedor h2{
        width: 90%;
-       font-size: 19px;
+       font-size: 22px;
    }
    .contenedor p{
-       font-size: 19px;
+       font-size: 22px;
    }
    .contenedor h3{
-       font-size: 19px;
+       font-size: 22px;
        width:100%;
    }
   
-
-
-
    
    /*footer*/
    
@@ -172,6 +211,46 @@ footer{
 
    
 }  
+
+@media screen and (max-width:700px){
+    .contenedor h2{
+        font-size: 21px;
+    }
+    .contenedor p{
+        font-size: 21px;
+    }
+    .contenedor h3{
+        font-size: 21px;
+    }
+    header h1{
+        font-size: 21px;
+    }    
+    header{
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .contenedor h2{
+        font-size: 16px;
+    }
+    .contenedor p{
+        font-size: 16px;
+    }
+    .contenedor h3{
+        font-size: 16px;
+    }
+    header h1{
+        font-size: 16px;
+    } 
+    header{
+        height: 115px;
+    }
+    .contenedor{
+        margin-top: -70px;
+    }
+}
+    
 
 
 

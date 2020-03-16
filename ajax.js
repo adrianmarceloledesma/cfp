@@ -18,10 +18,10 @@
 
            /*mostrar submmenu en pantalla grande y chica */
 			$("#li3").click(function(){
-				if ($(window).width() > 500){
+				if ($(window).width() > 990){
 			     	$(".extensionPantallaGrande").slideToggle(500);
 				}
-			    else if ($(window).width() <= 500) {
+			    else if ($(window).width() <= 990) {
 					$(".li3a, .li3b, .li3c").slideToggle(500);		
 				
 			   }
