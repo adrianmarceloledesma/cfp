@@ -36,10 +36,14 @@
 					scrollTop: '0px'
 				}, 300);
 
-			})
+			})	
+			  	
 			$(".extensionPantallaGrande li").click(function(){
 				if ($(window).width() > 1000) {
-					$(".extensionPantallaGrande").fadeOut(500);	 
+					$(".extensionPantallaGrande").fadeOut(500);	
+					$('body, html').animate({
+			    		scrollTop: '0px'
+			    	}, 300); 
 				}	
 		
 			  	
