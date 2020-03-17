@@ -30,6 +30,12 @@
 			$("#nav2 li:not(.cursos)").click(function(){
 				
 			   $(".extensionPantallaGrande").hide();
+
+			    // la pagina vuelve arriba en cada seleccion del menu de nav
+				$('body, html').animate({
+					scrollTop: '0px'
+				}, 300);
+
 			})
 			$(".extensionPantallaGrande li").click(function(){
 				if ($(window).width() > 1000) {

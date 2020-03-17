@@ -6,7 +6,7 @@ body{
     width:95%;
     margin:0 auto;
     font-family: 'Times New Roman', Times, serif;
-    
+    background-color: rgb(228, 228, 228);
 }
 /*contenedor*/
 
@@ -17,9 +17,10 @@ body{
     font-size: 21px;
 }
 .contenedor h2{
+    
     font-weight: bold;
     font-size:23px;
-    border-bottom: rgb(41, 84, 223) solid 1px;
+    border-bottom: rgb(29, 57, 148) solid 1px;
     padding-top:30px;
     width:70%;
     margin:auto;
@@ -47,11 +48,11 @@ iframe{
     height:300px;
 }
 .certificacion{
-  color: rgb(216, 49, 57);
+  color: rgb(51, 37, 110);
   font-weight: 900;
   margin: 20px 0 20px 0;
   border:1px gray dashed;
-
+  
  
 }
 
@@ -74,7 +75,7 @@ aside figure > img{
 header{
     position: fixed;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     margin-left: -33px;
 }
@@ -88,7 +89,7 @@ header > h1{
     text-shadow: 1px 1px 4px gray;
 }
 header > img{
-    width:100px
+    width:90px
 }
 
 
@@ -124,8 +125,8 @@ nav .extension {
 .extensionPantallaGrande{
  
     position:fixed;
-    top:26%;
-    left:31%;
+    top:170px;
+    left:414px;
    
     
     background-color:rgb(24, 24, 100);
@@ -189,13 +190,13 @@ footer .contactocfp{
 /*menu responsive*/
 .responsive > img {
     position: fixed;
-    top:20px;
+    top:10px;
     right: 20px;
     margin:auto;
     
 
     width:60px;
-    height: 60px;
+    height: 65px;
     border-radius: 50%;
     display: none;
     
